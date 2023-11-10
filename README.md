@@ -1,1 +1,1 @@
-# D14
+D14 is a group of like-minded individuals passionate about supporting API and bot development, as well as contributing to open-source code. We are dedicated to fostering collaboration and innovation within the realms of open-source coding and Discord bot development. Join us in our journey to create, share, and enhance code for the benefit of the entire development community.
