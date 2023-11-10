@@ -33,4 +33,4 @@ async def close_ticket(ctx):
         if logging_states['message_edit']:
             await log_channel.send(f"Ticket closed by {ctx.author.display_name}. Channel: {channel.name}")
     else:
-        await ctx.send("You don't have an open ticket.") 
+        await ctx.send("You don't have an open ticket.")
