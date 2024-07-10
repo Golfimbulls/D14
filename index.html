@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department 14 - Web Development Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #0073e6;
+            margin-bottom: 10px;
+        }
+
+        .services,
+        .portfolio,
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .services div,
+        .portfolio div,
+        .team div {
+            flex: 1 1 30%;
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form p {
+            margin-bottom: 20px;
+        }
+
+        .discord-btn {
+            background-color: #7289da;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .discord-btn:hover {
+            background-color: #5a68a5;
+        }
+
+        .watermark {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 40px;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .services div,
+            .portfolio div,
+            .team div {
+                flex: 1 1 100%;
+            }
+
+            nav {
+                display: block;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Department 14</h1>
+            <p>Web Development Company</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Department 14, a leading web development company dedicated to creating innovative and effective websites for businesses of all sizes. Our team of experienced developers, designers, and strategists work collaboratively to deliver outstanding digital solutions tailored to your specific needs. We specialize in building robust, scalable websites that help you achieve your business goals.</p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div>
+                    <h3>Web Development</h3>
+                    <p>We create robust and scalable web applications tailored to your business needs. Our team uses the latest technologies to ensure your website is fast, secure, and reliable.</p>
+                </div>
+                <div>
+                    <h3>Web Design</h3>
+                    <p>Our design team crafts visually stunning and user-friendly websites that enhance user experience and engagement. We focus on responsive design to ensure your site looks great on all devices.</p>
+                </div>
+                <div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your website's visibility on search engines with our expert SEO services. We use proven strategies to boost your rankings and drive more traffic to your site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio">
+                <div>
+                    <h3>ONI Alliance of Defense</h3>
+                    <p>A vibrant community-focused website for the ONI Alliance of Defense gaming clan, featuring event calendars, strategy guides, and a dynamic Discord integration.</p>
+                </div>
+                <div>
+                    <h3>Project Two</h3>
+                    <p>Description of the project goes here. Showcase your best work to attract new clients.</p>
+                </div>
+                <div>
+                    <h3>Project Three</h3>
+                    <p>Description of the project goes here. Showcase your best work to attract new clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div>
+                    <h3>John Doe</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div>
+                    <h3>Jane Smith</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <div>
+                    <h3>Mike Johnson</h3>
+                    <p>SEO Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <p>If you have any questions or need support, join our Discord server:</p>
+                <a href="https://discord.gg/ZJGtJGhb" target="_blank" class="discord-btn">Join Our Discord</a>
+            </div>
+        </div>
+    </section>
+   
